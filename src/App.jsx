@@ -173,7 +173,7 @@ const Mission = () => (
         </div>
         
         <h3 className="text-4xl font-serif text-white leading-tight">
-          The united states faces <br/>a crisis of impunity.
+          The united states faces a crisis of impunity.
         </h3>
         
         <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
