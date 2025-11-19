@@ -173,18 +173,27 @@ const Mission = () => (
         </div>
         
         <h3 className="text-4xl font-serif text-white leading-tight">
-          "The bigger the crime, <br/>the safer the culprit."
+          "The united states faces <br/>a crisis of impunity.
         </h3>
         
         <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
+          <p>
+            The Trump administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
+          </p>
           <p>
             Acts of corruption, retaliation, and obstruction now occur in plain sight, while accountability disappears into the darkness of an endlessly deferred future.
           </p>
           <p>
             The message to the powerful and powerless alike is clear: disobey unlawful orders and you will be punished; comply and you will be rewarded. For those making this calculation, recent history counsels no greater caution.
           </p>
+          <p>
+            From the abuses of the post 9/11 "war on terror" to the crimes of the 2008 financial crisis, the United States has routinely failed to punish the rich, well-armed, and powerful for their lawlessness. 
+          </p>
+          <p>
+            Indeed, the lesson has been clear:
+          </p>
           <blockquote className="border-l-4 border-red-700 pl-6 italic text-slate-400 my-8">
-            From the abuses of the post 9/11 "war on terror" to the crimes of the 2008 financial crisis, the United States has routinely failed to punish the rich, well-armed, and powerful for their lawlessness.
+            The bigger the crime, the safer the culprit. 
           </blockquote>
           <p className="font-medium text-white">
             The Rule of Law Project will reverse that equation.
