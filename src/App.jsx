@@ -193,10 +193,9 @@ const Mission = () => (
             From the abuses of the post 9/11 "war on terror" to the crimes of the 2008 financial crisis, the United States has routinely failed to punish the rich, well-armed, and powerful for their lawlessness. 
           </blockquote>
           <p>
-            Indeed, the lesson has been clear:
+            Indeed, the lesson has been clear: <strong>The bigger the crime, the safer the culprit.</strong>
           </p>
           <blockquote className="border-l-4 border-red-700 pl-6 italic text-slate-400 my-8">
-            The bigger the crime, the safer the culprit. 
           </blockquote>
           <p className="font-medium text-white">
             The Rule of Law Project will reverse that equation.
