@@ -11,7 +11,7 @@ const Navigation = ({ activeSection, setActiveSection, isMenuOpen, setIsMenuOpen
           <div className="bg-slate-100 p-1.5 rounded-sm">
             <Scale className="h-6 w-6 text-slate-900" />
           </div>
-          <span className="text-slate-100 font-serif font-bold text-xl tracking-wider uppercase">Rule of Law Project</span>
+          <span className="text-slate-100 font-serif font-bold text-xl tracking-wider uppercase">The Rule of Law Project</span>
         </div>
         
         <div className="hidden md:block">
@@ -77,7 +77,7 @@ const LoginScreen = ({ handleLogin, passwordInput, setPasswordInput, loginError 
           Restricted Access
         </h2>
         <p className="mt-2 text-sm text-slate-400 uppercase tracking-widest">
-          Rule of Law Project
+          The Rule of Law Project
         </p>
       </div>
       <form className="mt-8 space-y-6" onSubmit={handleLogin}>
