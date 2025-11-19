@@ -137,24 +137,24 @@ const Hero = ({ setActiveSection }) => (
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">Unlawful Conduct</span> Has Consequences
       </h1>
       
-      <p className="text-xl text-slate-400 max-w-3xl mx-auto mb-12 font-light leading-relaxed">
-        The United States faces a crisis. Acts of corruption, retaliation, and obstruction occur in plain sight. 
-        We exist to reverse the equation: document unlawful acts, build prosecution-ready cases, and ensure accountability is inevitable.
+      <p className="text-xl text-slate-400 max-w-4xl mx-auto mb-12 font-light leading-relaxed">
+        The Trump administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
+        We exist to reverse the equation: We will document unlawful acts, build prosecution-ready cases, and ensure that accountability is inevitable.
       </p>
       
       <div className="flex flex-col sm:flex-row justify-center gap-6">
         <button 
-          onClick={() => setActiveSection('methodology')}
+          onClick={() => setActiveSection('mission')}
           className="group bg-white text-slate-900 px-8 py-4 rounded-sm font-bold uppercase tracking-widest hover:bg-slate-200 transition-all flex items-center justify-center gap-2"
         >
-          Our Methodology
+          Read The Proposal
           <ArrowRight className="group-hover:translate-x-1 transition-transform" size={18} />
         </button>
         <button 
-          onClick={() => setActiveSection('mission')}
+          onClick={() => setActiveSection('methodology')}
           className="border border-slate-600 text-slate-300 px-8 py-4 rounded-sm font-bold uppercase tracking-widest hover:bg-slate-800 hover:border-slate-500 transition-all"
         >
-          Read The Proposal
+          Our Methodology
         </button>
       </div>
     </div>
@@ -178,7 +178,7 @@ const Mission = () => (
         
         <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
           <p>
-            The United States faces a crisis of impunity. The current administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law.
+            Acts of corruption, retaliation, and obstruction now occur in plain sight, while accountability disappears into the darkness of an endlessly deferred future.
           </p>
           <p>
             The message to the powerful and powerless alike is clear: disobey unlawful orders and you will be punished; comply and you will be rewarded. For those making this calculation, recent history counsels no greater caution.
@@ -230,9 +230,9 @@ const Methodology = () => (
           <div className="mb-6 bg-slate-900 w-14 h-14 flex items-center justify-center rounded-sm group-hover:bg-red-900/20 transition-colors">
             <Eye className="text-red-500 w-8 h-8" />
           </div>
-          <h4 className="text-2xl text-white font-bold mb-4">1. Investigate & Document</h4>
+          <h4 className="text-2xl text-white font-bold mb-4">1. Investigate and Document</h4>
           <p className="text-slate-400 leading-relaxed">
-            We collect and verify evidence of unlawful conduct. Sources include court filings, FOIA materials, whistleblower accounts, financial records, and outside investigative reporting. We build the evidentiary record while the trail is fresh.
+            We will collect and verify evidence of unlawful conduct. Sources include court filings, FOIA materials, whistleblower accounts, financial records, and outside investigative reporting. We build the evidentiary record while the trail is fresh.
           </p>
         </div>
 
@@ -242,7 +242,7 @@ const Methodology = () => (
           </div>
           <h4 className="text-2xl text-white font-bold mb-4">2. Build Legal Cases</h4>
           <p className="text-slate-400 leading-relaxed">
-            Each case is analyzed against federal, state, and international law. The Project prepares mock indictments and legal memoranda demonstrating probable cause. All materials meet prosecutorial standards for accuracy and evidentiary integrity.
+            Each case will be analyzed against federal, state, and international law. The Project will prepare mock indictments and legal memoranda demonstrating probable cause. All materials will meet prosecutorial standards for accuracy and evidentiary integrity.
           </p>
         </div>
 
@@ -250,9 +250,9 @@ const Methodology = () => (
           <div className="mb-6 bg-slate-900 w-14 h-14 flex items-center justify-center rounded-sm group-hover:bg-red-900/20 transition-colors">
             <AlertTriangle className="text-red-500 w-8 h-8" />
           </div>
-          <h4 className="text-2xl text-white font-bold mb-4">3. Deter & Expose</h4>
+          <h4 className="text-2xl text-white font-bold mb-4">3. Deter and Expose</h4>
           <p className="text-slate-400 leading-relaxed">
-            We publish findings naming responsible parties and detailing their legal exposure. Public disclosure shifts incentives: officials and executives will think twice when faced with clear reputational and legal risk.
+            We will publish findings naming responsible parties and detailing their legal exposure. Public disclosure shifts incentives: officials, executives, and professionals who might otherwise comply with illegal orders will begin to think twice when faced with reputational and legal risk.
           </p>
         </div>
 
@@ -260,9 +260,9 @@ const Methodology = () => (
           <div className="mb-6 bg-slate-900 w-14 h-14 flex items-center justify-center rounded-sm group-hover:bg-red-900/20 transition-colors">
             <Lock className="text-red-500 w-8 h-8" />
           </div>
-          <h4 className="text-2xl text-white font-bold mb-4">4. Preserve for Prosecution</h4>
+          <h4 className="text-2xl text-white font-bold mb-4">4. Preserve for Future Prosecution</h4>
           <p className="text-slate-400 leading-relaxed">
-            Comprehensive case files will be preserved for use by future administrations committed to the rule of law and for current independent prosecutors. When political conditions permit, these materials enable immediate investigations.
+            Comprehensive, legally structured case files will be preserved for use by future administrations committed to the rule of law and for current independent prosecutors at the state level. When political conditions permit, these materials will enable immediate investigations leading to prosecutions.
           </p>
         </div>
       </div>
@@ -288,22 +288,22 @@ const Targets = () => (
           {
             icon: <Briefcase className="w-6 h-6" />,
             title: "Private Individuals & Corporations",
-            desc: "Those engaging in bribery, fraud, or corrupt practices for influence or profit."
+            desc: "Those engaging in bribery, fraud, or other corrupt practices in exchange for influence, access, or profit."
           },
           {
             icon: <Users className="w-6 h-6" />,
             title: "Professional Enablers",
-            desc: "Lawyers, accountants, consultants, and lobbyists who facilitate or conceal unlawful conduct."
+            desc: "Lawyers, accountants, consultants, and lobbyists who facilitate, justify, or conceal unlawful conduct through professional services or misinformation."
           },
           {
             icon: <Shield className="w-6 h-6" />,
             title: "Enforcement Personnel",
-            desc: "Law enforcement, military, and immigration personnel participating in illegal operations."
+            desc: "Law enforcement, military, and immigration personnel who participate in or enable illegal operations, detentions, or use of force."
           },
           {
             icon: <Gavel className="w-6 h-6" />,
-            title: "Political Appointees",
-            desc: "Those who abuse office to obstruct justice, retaliate against whistleblowers, or subvert oversight."
+            title: "Political Appointees & Senior Civil Servants",
+            desc: "Those who abuse office to obstruct justice, retaliate against whistleblowers, or subvert lawful oversight."
           }
         ].map((target, i) => (
           <div key={i} className="group flex items-center bg-slate-900 p-6 border-l-2 border-transparent hover:border-red-500 transition-all hover:bg-slate-800">
@@ -343,6 +343,9 @@ const Strategy = ({ setActiveSection }) => (
         <div className="space-y-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 uppercase tracking-wider border-b border-slate-300 pb-2">Operational Needs</h3>
+            <p className="text-slate-600 mb-4 italic">
+              The Project will employ experienced prosecutors, investigators, and legal scholars, supported by law students at selected institutions.
+            </p>
             <ul className="space-y-4 mt-4">
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
@@ -350,11 +353,7 @@ const Strategy = ({ setActiveSection }) => (
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
-                <p className="font-medium">Experienced prosecutors, investigators, and legal scholars.</p>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
-                <p className="font-medium">Establishment of a 501(c)(3) or fiscal sponsorship.</p>
+                <p className="font-medium">Establishment of a new 501(c)(3) or partnership with an existing nonprofit.</p>
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
@@ -388,24 +387,33 @@ const Contact = () => (
         <p className="text-slate-400 mt-2">Secure communication channels available.</p>
       </div>
       
-      <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
+      <form 
+        className="space-y-6" 
+        action="https://formspree.io/f/xvglajny" 
+        method="POST"
+      >
         <div>
           <label className="block text-slate-400 text-sm uppercase tracking-wider mb-2">Email (Optional)</label>
-          <input type="email" className="w-full bg-slate-950 border border-slate-800 text-white p-3 focus:border-red-500 focus:outline-none transition-colors" placeholder="secure@example.com" />
+          <input 
+            type="email" 
+            name="email"
+            className="w-full bg-slate-950 border border-slate-800 text-white p-3 focus:border-red-500 focus:outline-none transition-colors" 
+            placeholder="secure@example.com" 
+          />
         </div>
         
         <div>
           <label className="block text-slate-400 text-sm uppercase tracking-wider mb-2">Message / Tip</label>
-          <textarea className="w-full bg-slate-950 border border-slate-800 text-white p-3 h-32 focus:border-red-500 focus:outline-none transition-colors" placeholder="How can you help? / Report an incident..."></textarea>
+          <textarea 
+            name="message"
+            className="w-full bg-slate-950 border border-slate-800 text-white p-3 h-32 focus:border-red-500 focus:outline-none transition-colors" 
+            placeholder="How can you help? / Report an incident..."
+          ></textarea>
         </div>
 
         <button className="w-full bg-white text-slate-900 py-4 font-bold uppercase tracking-widest hover:bg-slate-200 transition-colors">
-          Submit Encrypted
+          Submit
         </button>
-        
-        <p className="text-xs text-slate-500 text-center mt-4">
-          We utilize end-to-end encryption for all submissions. Whistleblower identities are protected.
-        </p>
       </form>
     </div>
   </div>
