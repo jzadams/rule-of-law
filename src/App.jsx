@@ -16,7 +16,7 @@ const Navigation = ({ activeSection, setActiveSection, isMenuOpen, setIsMenuOpen
         
         <div className="hidden md:block">
           <div className="ml-10 flex items-baseline space-x-8">
-            {['Mission', 'Methodology', 'Targets', 'Strategy'].map((item) => (
+            {['Mission', 'Methodology', 'Scope', 'Strategy'].map((item) => (
               <button
                 key={item}
                 onClick={() => setActiveSection(item.toLowerCase())}
@@ -31,7 +31,7 @@ const Navigation = ({ activeSection, setActiveSection, isMenuOpen, setIsMenuOpen
               onClick={() => setActiveSection('contact')}
               className="bg-red-700 hover:bg-red-600 text-white px-5 py-2 rounded-sm text-sm uppercase tracking-widest font-medium transition-all duration-200"
             >
-              Join The Effort
+              Join
             </button>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Navigation = ({ activeSection, setActiveSection, isMenuOpen, setIsMenuOpen
     {isMenuOpen && (
       <div className="md:hidden bg-slate-900 border-b border-slate-800">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          {['Home', 'Mission', 'Methodology', 'Targets', 'Strategy', 'Contact'].map((item) => (
+          {['Home', 'Mission', 'Methodology', 'Scope', 'Strategy', 'Contact'].map((item) => (
             <button
               key={item}
               onClick={() => {
@@ -173,7 +173,7 @@ const Mission = () => (
         </div>
         
         <h3 className="text-4xl font-serif text-white leading-tight">
-          The united states faces a crisis of impunity.
+          The United States faces a crisis of impunity.
         </h3>
         
         <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
@@ -281,7 +281,7 @@ const Methodology = () => (
   </div>
 );
 
-const Targets = () => (
+const Scope = () => (
   <div className="bg-slate-950 py-24 px-4 min-h-screen flex items-center">
     <div className="max-w-5xl mx-auto w-full">
       <div className="mb-16 border-l-4 border-white pl-6">
@@ -394,8 +394,7 @@ const Contact = () => (
     <div className="max-w-md w-full bg-slate-900 p-8 border border-slate-800 rounded-sm shadow-2xl">
       <div className="text-center mb-8">
         <Scale className="w-12 h-12 text-white mx-auto mb-4" />
-        <h2 className="text-3xl font-serif text-white">Join The Effort</h2>
-        <p className="text-slate-400 mt-2">Secure communication channels available.</p>
+        <h2 className="text-3xl font-serif text-white">Join</h2>
       </div>
       
       <form 
@@ -464,7 +463,7 @@ const App = () => {
     switch(activeSection) {
       case 'mission': return <Mission />;
       case 'methodology': return <Methodology />;
-      case 'targets': return <Targets />;
+      case 'scope': return <Scope />;
       case 'strategy': return <Strategy setActiveSection={setActiveSection} />;
       case 'contact': return <Contact />;
       default: return <Hero setActiveSection={setActiveSection} />;
