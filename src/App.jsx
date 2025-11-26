@@ -138,7 +138,7 @@ const Hero = ({ setActiveSection }) => (
       </h1>
       
       <p className="text-xl text-slate-400 max-w-4xl mx-auto mb-12 font-light leading-relaxed">
-        The Trump administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
+        The current administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
         We exist to reverse the equation: We will document unlawful acts, build prosecution-ready cases, and ensure that accountability is inevitable.
       </p>
       
@@ -178,7 +178,7 @@ const Mission = () => (
         
         <div className="space-y-6 text-slate-300 leading-relaxed text-lg">
           <p>
-            The Trump administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
+            The current administration and its private-sector enablers are violating federal, state, and international law on a daily basis, with open contempt for the rule of law. 
           </p>
           <p>
             Acts of corruption, retaliation, and obstruction now occur in plain sight, while accountability disappears into the darkness of an endlessly deferred future.
