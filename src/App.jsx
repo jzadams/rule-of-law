@@ -364,7 +364,7 @@ const Strategy = ({ setActiveSection }) => (
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
-                <p className="font-medium">Establishment of a new 501(c)(3) or partnership with an existing nonprofit.</p>
+                <p className="font-medium">Establishment of a new 501(c)(3).</p>
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-2 h-2 bg-red-600 rounded-full"></div>
