@@ -346,7 +346,7 @@ const Strategy = ({ setActiveSection }) => (
           </p>
           <div className="bg-white p-8 border-l-4 border-slate-900 shadow-lg">
             <p className="font-serif text-xl italic text-slate-800">
-              "The United States is late to this work, but not too late. The methods are known. The stakes are clear. The only question is whether we will choose to act."
+              The United States is late to this work, but not too late. The methods are known. The stakes are clear. The only question is whether we will choose to act.
             </p>
           </div>
         </div>
