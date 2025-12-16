@@ -450,7 +450,7 @@ const App = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (passwordInput === 'ruleoflaw') {
+    if (passwordInput === 'justice2029') {
       setIsAuthenticated(true);
       setLoginError(false);
     } else {
