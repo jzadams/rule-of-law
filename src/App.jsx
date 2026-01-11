@@ -206,13 +206,16 @@ const Mission = () => (
       <div className="relative">
         <div className="absolute -inset-4 bg-gradient-to-r from-red-900/20 to-slate-800/20 blur-xl rounded-lg"></div>
         <div className="relative bg-slate-900 p-8 md:p-12 rounded-sm border border-slate-800 shadow-2xl">
-          <h4 className="text-2xl font-serif text-white mb-6">Our Foundational Goal</h4>
+          <h4 className="text-2xl font-serif text-white mb-6">Our Foundational Goals</h4>
           <div className="space-y-6">
             {[
               "Document unlawful acts in real-time.",
               "Build prosecution-ready case files.",
+              "Create a database of potential criminal violations.",   
               "Signal clearly that accountability is inevitable.",
-              "Deter future abuses by naming individuals and institutions."
+              "Deter future abuses by naming individuals and institutions.",
+              "Make recommendations for reform to address gaps in US law.",
+              "Re-establish a civic culture of respect for law."
             ].map((item, i) => (
               <div key={i} className="flex items-start gap-4">
                 <div className="mt-1 bg-red-900/30 p-1 rounded-full">
