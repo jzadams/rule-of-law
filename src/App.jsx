@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Scale, Shield, FileText, Eye, Gavel, Users, Building2, Briefcase, ArrowRight, Menu, X, AlertTriangle, Lock, Key } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- Sub-Components (Moved OUTSIDE of App to fix focus issues) ---
 
@@ -510,6 +511,7 @@ const App = () => {
           <p className="text-slate-700 text-xs mt-2">Dedicated to the preservation of justice.</p>
         </footer>
       )}
+      <Analytics />
     </div>
   );
 };
